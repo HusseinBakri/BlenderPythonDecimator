@@ -45,6 +45,27 @@ Installing Blender on the Operating System in question.
 
 Example in Ubuntu Server 16.04: 'sudo apt-get install blender' (Make sure also you can call Blender from cmd/terminal etc...).
 
+## Mac OS
+In Mac OS, Blender may be an unrecognized command so you need to create an alias so it can be used from terminal
+Normally Blender command or process is inside the blender.app folder. Do the following:
+```
+echo 'alias blender="/Applications/blender.app/Contents/MacOS/blender"' >> .bashrc
+```
+or normally in a folder in /Applications called also Blender
+```
+echo 'alias blender="/Applications/Blender/blender.app/Contents/MacOS/blender"' >> .bashrc
+
+```
+
+Now run this in terminal:
+```
+source ~/.bashrc
+```
+Finally check if blender can be invoked from terminal:
+```
+blender --version
+```
+
 # Usage  
 
 ```
