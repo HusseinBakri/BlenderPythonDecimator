@@ -29,7 +29,7 @@ def get_args():
   script_args = all_arguments[double_dash_index + 1: ]
  
   # add parser rules
-  parser.add_argument('-r', '--ratio', help="Ration of resuction, Example: 0.5 mean half number of faces ")
+  parser.add_argument('-r', '--ratio', help="Ratio of reduction, Example: 0.5 mean half number of faces ")
   parser.add_argument('-in', '--inm', help="Original Model")
   parser.add_argument('-out', '--outm', help="Decimated output file")
   parsed_script_args, _ = parser.parse_known_args(script_args)
