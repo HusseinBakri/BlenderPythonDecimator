@@ -9,6 +9,7 @@ Description: A Python Tool that decimates an OBJ 3D model into lower resolutions
 It uses the Blender Python API.
 Requirements: You need only to install Blender first on the OS in question
           Example in Ubuntu Server 16.04: 'sudo apt-get install blender'
+          Example in Fedora 26:           'sudo dnf install blender'
           Make sure you can call Blender from cmd/terminal etc...
 Usage: blender -b -P blenderSimplify.py -- --ratio 0.5 --inm 'Original_Mesh.obj' --outm 'Output_Mesh.obj'
 After --inm:  you specify the original mesh to import for decimation
