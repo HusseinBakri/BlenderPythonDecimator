@@ -88,8 +88,12 @@ blender -b -P blenderSimplifyNumFaces.py -- --nfaces 300000 --inm 'Original_Mesh
 
 ```
 
-# Example 
+# Examples 
 blender -b -P blenderSimplify.py -- --ratio 0.5 --inm 'Hat.obj' --outm 'Hat_simple.obj'
+
+blender -b -P blenderSimplifyV2.py -- --ratio 0.5 --inm 'Hat.obj' --outm 'Hat_simple.obj'
+
+blender -b -P blenderSimplifyNumFaces.py -- --nfaces 300000 --inm 'Hat.obj' --outm 'Hat_simple.obj'
 
 
 # Other similar tools that I developped
