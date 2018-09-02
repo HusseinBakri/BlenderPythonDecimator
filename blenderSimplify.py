@@ -2,6 +2,7 @@
 import bpy
 import sys
 import time
+import argparse
 
 '''
 Description: A Python Tool that decimates an OBJ 3D model into lower resolutions (in nb of faces)
