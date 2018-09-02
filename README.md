@@ -76,6 +76,15 @@ After --inm:  you specify the original mesh to import for decimation
       --ratio: this ratio should be between 0.1 and 1.0(no decimation occurs). If you choose per example --ratio 0.5 meaning you half the number of faces so if your model is 300K faces it will be exported as 150K faces
       
 PS: this tool does not try to preserve the integrity of the mesh so be carefull in choosing the ratio (try not choose a very low ratio)
+
+##Another enhanced version store the model and its textures in a folder named as the ratio of decimation
+
+blender -b -P blenderSimplifyV2.py -- --ratio 0.5 --inm 'Original_Mesh.obj' --outm 'Output_Mesh.obj'
+
+##A third version of the tool (takes a number of faces instead of a ratio of decimation (which can be very handy if you know that you want an exact number of faces 3D Model)
+
+blender -b -P blenderSimplifyNumFaces.py -- --nfaces 300000 --inm 'Original_Mesh.obj' --outm 'Output_Mesh.obj'
+
 ```
 
 # Example 
