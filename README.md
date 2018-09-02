@@ -43,7 +43,10 @@ bpy.ops.export_scene.fbx(filepath=output_model)
 # Requirements
 Installing Blender on the Operating System in question.
 
-Example in Ubuntu Server 16.04: 'sudo apt-get install blender' (Make sure also you can call Blender from cmd/terminal etc...).
+Example in Ubuntu Server 16.04: 'sudo apt-get install blender' 
+xample in Fedora 26:           'sudo dnf install blender'
+
+NB: Make sure also you can call Blender from cmd/terminal of your OS.
 
 ## Mac OS
 In Mac OS, Blender may be an unrecognized command so you need to create an alias so it can be used from terminal
