@@ -1,10 +1,10 @@
 # BlenderPythonDecimator
-A Python Tool that decimates a .obj 3D model into a lower resolution using the Blender Python API.
+A Python Tool that decimates a .obj 3D model into a lower resolutions using the Blender Python API.
 
 # Description
-A Blender (https://www.blender.org/) Python 3 tool to simplify or decimate a 3D Model/Mesh  (With and Without Textures) in OBJ format (can be changed) into a lower resolution mesh taking a specific ratio that governs the Number of Faces. It uses Blender Python API (https://docs.blender.org/api/2.79/).
+A Blender (https://www.blender.org/) Python 3 tool to simplify or decimate a 3D Model/Mesh  (With and Without Textures) in OBJ format into a lower resolution mesh taking a specific ratio that governs the Number of Faces. It uses Blender Python API (https://docs.blender.org/api/2.79/). 
 
-The Python tool take CLI arguments: the ratio, the original mesh and the name of final Decimated mesh.
+The Python tool takes CLI arguments such as the ratio, the original mesh and the name of final decimated mesh.
 
 You can change my code, in a very simple manner, to import and export other types of 3D file formats supported by Blender in the following manner:
 
@@ -41,31 +41,31 @@ bpy.ops.export_scene.fbx(filepath=output_model)
 
 
 # Requirements
-Installing Blender on the Operating System in question.
+Installing Blender on the Operating System (OS) in question.
 
 Example in Ubuntu Server 16.04: 'sudo apt-get install blender'
 
 Example in Fedora 26: 'sudo dnf install blender'
 
-NB: Make sure also you can call Blender from cmd/terminal of your OS.
+NB: Make sure also you can call Blender from the command line or terminal of your OS.
 
 ## Mac OS
 In Mac OS, Blender may be an unrecognized command so you need to create an alias so it can be used from terminal
-Normally Blender command or process is inside the blender.app folder. Do the following:
+Normally the Blender command or process is inside the blender.app folder. Do the following:
 ```
 echo 'alias blender="/Applications/blender.app/Contents/MacOS/blender"' >> .bashrc
 ```
-or normally in a folder in /Applications called also Blender
+or normally you can also find it in a folder in /Applications called also Blender
 ```
 echo 'alias blender="/Applications/Blender/blender.app/Contents/MacOS/blender"' >> .bashrc
 
 ```
 
-Now run this in terminal:
+Now run this in the terminal:
 ```
 source ~/.bashrc
 ```
-Finally check if blender can be invoked from terminal:
+Finally check if Blender can be invoked from the terminal:
 ```
 blender --version
 ```
