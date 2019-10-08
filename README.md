@@ -1,4 +1,6 @@
 # BlenderPythonDecimator
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3476899.svg)](https://doi.org/10.5281/zenodo.3476899)
+
 A Python Tool that decimates a .obj 3D model into a lower resolutions using the Blender Python API.
 
 # Description
