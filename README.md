@@ -1,5 +1,5 @@
 # BlenderPythonDecimator
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3476899.svg)](https://doi.org/10.5281/zenodo.3476899) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HusseinBakri/BlenderPythonDecimator)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3476899.svg)](https://doi.org/10.5281/zenodo.3476899) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HusseinBakri/BlenderPythonDecimator) ![GitHub](https://img.shields.io/github/license/HusseinBakri/BlenderPythonDecimator)
 
 A Python Tool that decimates a .obj 3D model into a lower resolutions using the Blender Python API.
 
